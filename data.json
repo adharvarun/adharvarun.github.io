@@ -55,6 +55,11 @@
     "github": "https://www.github.com/adharvarun/skytracker-cli"
   },
   {
+    "name": "RoboPup",
+    "description": "AI Powered Robot Dog with Gesture Controls running with Python on the AI Lite Kit",
+    "github": "https://www.github.com/adharvarun/RoboPup"
+  },
+  {
     "name": "Github",
     "url": "https://github.com/adharvarun",
     "description": "Project Repos"
