@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Projects</title>
+    <title>Adharv's Projects</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1c42d02712.js" crossorigin="anonymous"></script>
     <style>
         body {
             font-family: 'Poppins', sans-serif;
@@ -17,20 +18,20 @@
             background: linear-gradient(135deg, #007bff, #4c00ff);
             color: white;
             text-align: center;
-            padding-top: 40px;
-            padding-bottom: 40px;
+            padding: 50px 20px;
         }
-        
+
         h1 {
             font-size: 36px;
             font-weight: 600;
+            margin-bottom: 1px;
             letter-spacing: 1px;
         }
-        
+
         h3 {
-            font-size: 24px;
+            font-size: 22px;
             font-weight: 400;
-            margin-bottom: 20px;
+            margin-bottom: 25px;
             opacity: 0.9;
         }
 
@@ -45,7 +46,7 @@
         .link-box {
             background: white;
             border-radius: 12px;
-            padding: 20px;
+            padding: 18px;
             width: 320px;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
             display: flex;
@@ -80,16 +81,26 @@
             gap: 10px;
             align-items: center;
         }
-        
+
         .link-box .icon {
             font-size: 22px;
             color: #007bff;
             transition: transform 0.3s ease;
         }
-        
+
         .link-box a {
             text-decoration: none;
             color: inherit;
+        }
+
+        .link-box .icon:hover {
+            color: #000000;
+        }
+
+        .disabled {
+            color: #bbb;
+            pointer-events: none;
+            opacity: 0.5;
         }
     </style>
 </head>
@@ -107,19 +118,23 @@
             websites.forEach(website => {
                 const linkBox = document.createElement('div');
                 linkBox.className = 'link-box';
+
+                const websiteLink = website.url ? 
+                    `<a href="${website.url}" target="_blank"><i class="fa-solid fa-link icon"></i></a>` : 
+                    `<i class="fa-solid fa-link icon disabled"></i>`;
+                
+                const githubLink = website.github ? 
+                    `<a href="${website.github}" target="_blank"><i class="fa-brands fa-github icon"></i></a>` : 
+                    `<i class="fa-brands fa-github icon disabled"></i>`;
                 
                 linkBox.innerHTML = `
                     <div class="content">
-                        <h3><a href="${website.url}" target="_blank">${website.name}</a></h3>
+                        <h3><a href="${website.url || '#'}" target="_blank">${website.name}</a></h3>
                         <p>${website.description}</p>
                     </div>
                     <div class="icon-container">
-                        <a href="${website.url}" target="_blank">
-                            <i class="fa-solid fa-arrow-up-right-from-square icon"></i>
-                        </a>
-                        <a href="${website.github}" target="_blank">
-                            <i class="fa-brands fa-github icon"></i>
-                        </a>
+                        ${websiteLink}
+                        ${githubLink}
                     </div>
                 `;
                 
@@ -128,6 +143,5 @@
         })
         .catch(error => console.error('Error loading JSON:', error));
     </script>
-    <script src="https://kit.fontawesome.com/1c42d02712.js" crossorigin="anonymous"></script>
 </body>
 </html>
