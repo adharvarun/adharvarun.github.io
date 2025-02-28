@@ -18,5 +18,10 @@
         "name": "Portfolio",
         "url": "https://adharvarun.github.io/Portfolio",
         "description": "My Portfolio Website"
+    },
+    {
+        "name": "Github",
+        "url": "https://github.com/adharvarun",
+        "description": "For All Projects (Hosted and Non-hosted)"
     }
   ]  
