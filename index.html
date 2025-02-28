@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Links</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        .link-box {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 10px;
+            width: 300px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.3s ease;
+        }
+
+        .link-box:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .link-box .content {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .link-box .content h3 {
+            margin: 0;
+            font-size: 18px;
+            color: #333;
+        }
+
+        .link-box .content p {
+            margin: 5px 0;
+            font-size: 14px;
+            color: #777;
+        }
+
+        .link-box .icon {
+            font-size: 20px;
+            color: #007BFF;
+            transform: rotate(45deg);
+        }
+
+        .link-box a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div id="link-container"></div>
+
+    <script>
+        fetch('data.json')
+        .then(response => response.json())
+        .then(websites => {
+            const container = document.getElementById('link-container');
+
+            websites.forEach(website => {
+                const linkBox = document.createElement('div');
+                linkBox.className = 'link-box';
+                
+                linkBox.innerHTML = `
+                    <div class="content">
+                        <h3><a href="${website.url}" target="_blank">${website.name}</a></h3>
+                        <p>${website.description}</p>
+                    </div>
+                    <a href="${website.url}" target="_blank"><i class="fa-solid fa-square-arrow-up-right icon"></i></a>
+                `;
+                
+                container.appendChild(linkBox);
+            });
+        })
+        .catch(error => console.error('Error loading JSON:', error));
+    </script>
+
+</body>
+</html>

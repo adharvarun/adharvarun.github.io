@@ -1,0 +1,22 @@
+[
+    {
+      "name": "JS Face Detection",
+      "url": "https://adharvarun-js-face-detection.netlify.app",
+      "description": "Vanilla JavaScript based Face Detection App"
+    },
+    {
+      "name": "Vocalize",
+      "url": "https://adharvarun.github.io/Vocalize",
+      "description": "Vanilla JavaScript built TTS (Text-to-Speech) App"
+    },
+    {
+        "name": "Brainstorm",
+        "url": "https://brainstorm-hb8p.onrender.com",
+        "description": "Django-based Todo List"
+    },
+    {
+        "name": "Portfolio",
+        "url": "https://adharvarun.github.io/Portfolio",
+        "description": "My Portfolio Website"
+    }
+  ]  
