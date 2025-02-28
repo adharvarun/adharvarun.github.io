@@ -1,5 +1,15 @@
 [
   {
+    "name": "AInstein",
+    "description": "AI Assistant built with DeepSeek-R1 and Chainlit",
+    "github": "https://www.github.com/adharvarun/AInstein"
+  },
+    {
+    "name": "SmartStep",
+    "description": "An innovative smart shoe designed to assist visually impaired individuals by providing real-time obstacle detection and auditory feedback.",
+    "github": "https://www.github.com/SmartStep-Inc"
+  },
+  {
     "name": "JS Face Detection",
     "url": "https://adharvarun-js-face-detection.netlify.app",
     "description": "Vanilla JavaScript based Face Detection App",
