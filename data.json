@@ -1,57 +1,51 @@
 [
-    {
-      "name": "JS Face Detection",
-      "url": "https://adharvarun-js-face-detection.netlify.app",
-      "description": "Vanilla JavaScript based Face Detection App",
-      "github": "https://www.github.com/adharvarun/js-face-detection"
-    },
-    {
-      "name": "Vocalize",
-      "url": "https://adharvarun.github.io/Vocalize",
-      "description": "Vanilla JavaScript built TTS (Text-to-Speech) App",
-      "github": "https://www.github.com/adharvarun/vocalize"
-    },
-    {
-        "name": "Brainstorm",
-        "url": "https://brainstorm-hb8p.onrender.com",
-        "description": "Django-based Todo List",
-        "github": "https://www.github.com/adharvarun/brainstorm"
-    },
-    {
-        "name": "Portfolio",
-        "url": "https://adharvarun.github.io/Portfolio",
-        "description": "My Portfolio Website",
-        "github": "https://www.github.com/adharvarun/portfolio"
-    },
-    {
-        "name": "Portfolio",
-        "url": "https://adharvarun.github.io/Portfolio",
-        "description": "My Portfolio Website",
-        "github": "https://www.github.com/adharvarun/portfolio"
-    },
-    {
-        "name": "CARTe",
-        "description": "Django-based Shopping App (In Progress)",
-        "github": "https://www.github.com/adharvarun/CARTe"
-    },
-    {
-        "name": "Super Mini Golf",
-        "description": "Python Mini Golf",
-        "github": "https://www.github.com/adharvarun/super-mini-golf"
-    },
-    {
-        "name": "AdharvBrowse",
-        "description": "Privacy Browser built with Python",
-        "github": "https://www.github.com/adharvarun/adharvbrowse"
-    },
-    {
-        "name": "SkyTracker CLI",
-        "description": "Command-Line Python based Weather App",
-        "github": "https://www.github.com/adharvarun/adharvbrowse"
-    },
-    {
-        "name": "Github",
-        "github": "https://github.com/adharvarun",
-        "description": "Project Repos",
-    }
-  ]  
+  {
+    "name": "JS Face Detection",
+    "url": "https://adharvarun-js-face-detection.netlify.app",
+    "description": "Vanilla JavaScript based Face Detection App",
+    "github": "https://www.github.com/adharvarun/js-face-detection"
+  },
+  {
+    "name": "Vocalize",
+    "url": "https://adharvarun.github.io/Vocalize",
+    "description": "Vanilla JavaScript built TTS (Text-to-Speech) App",
+    "github": "https://www.github.com/adharvarun/vocalize"
+  },
+  {
+    "name": "Brainstorm",
+    "url": "https://brainstorm-hb8p.onrender.com",
+    "description": "Django-based Todo List",
+    "github": "https://www.github.com/adharvarun/brainstorm"
+  },
+  {
+    "name": "Portfolio",
+    "url": "https://adharvarun.github.io/Portfolio",
+    "description": "My Portfolio Website",
+    "github": "https://www.github.com/adharvarun/portfolio"
+  },
+  {
+    "name": "CARTe",
+    "description": "Django-based Shopping App (In Progress)",
+    "github": "https://www.github.com/adharvarun/CARTe"
+  },
+  {
+    "name": "Super Mini Golf",
+    "description": "Python Mini Golf",
+    "github": "https://www.github.com/adharvarun/super-mini-golf"
+  },
+  {
+    "name": "AdharvBrowse",
+    "description": "Privacy Browser built with Python",
+    "github": "https://www.github.com/adharvarun/adharvbrowse"
+  },
+  {
+    "name": "SkyTracker CLI",
+    "description": "Command-Line Python based Weather App",
+    "github": "https://www.github.com/adharvarun/skytracker-cli"
+  },
+  {
+    "name": "Github",
+    "url": "https://github.com/adharvarun",
+    "description": "Project Repos"
+  }
+]
