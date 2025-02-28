@@ -73,18 +73,21 @@
             color: #666;
         }
 
+        .link-box .icon-container {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+        
         .link-box .icon {
             font-size: 22px;
             color: #007bff;
-            margin-left: 10px;
             transition: transform 0.3s ease;
         }
         
         .link-box a {
             text-decoration: none;
             color: inherit;
-            display: flex;
-            align-items: center;
         }
     </style>
 </head>
@@ -108,8 +111,14 @@
                         <h3><a href="${website.url}" target="_blank">${website.name}</a></h3>
                         <p>${website.description}</p>
                     </div>
-                    <a href="${website.url}" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square icon"></i></a>
-                    <a href="${website.github}" target="_blank"><i class="fa-brands fa-github icon"></i></a>
+                    <div class="icon-container">
+                        <a href="${website.url}" target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square icon"></i>
+                        </a>
+                        <a href="${website.github}" target="_blank">
+                            <i class="fa-brands fa-github icon"></i>
+                        </a>
+                    </div>
                 `;
                 
                 container.appendChild(linkBox);
