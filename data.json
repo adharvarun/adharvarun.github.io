@@ -60,6 +60,11 @@
     "github": "https://www.github.com/adharvarun/RoboPup"
   },
   {
+    "name": "TherAIpist",
+    "description": "Python-based Mental Health AI Chatbot and Analyzer",
+    "github": "https://github.com/MiscellaneousTechJSSPS/TherAIpist"
+  },
+  {
     "name": "Github",
     "url": "https://github.com/adharvarun",
     "description": "Project Repos"
