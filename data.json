@@ -35,6 +35,12 @@
     "github": "https://www.github.com/adharvarun/portfolio"
   },
   {
+    "name": "SpendX",
+    "url": "https://adharvarun.github.io/SpendX",
+    "description": "Vanilla JavaScript based Expense Tracker",
+    "github": "https://www.github.com/adharvarun/SpendX"
+  },
+  {
     "name": "CARTe",
     "description": "Django-based Shopping App (In Progress)",
     "github": "https://www.github.com/adharvarun/CARTe"
