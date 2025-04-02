@@ -2,7 +2,8 @@
   {
     "name": "AInstein",
     "description": "AI Assistant built with DeepSeek-R1 and Chainlit",
-    "github": "https://www.github.com/adharvarun/AInstein"
+    "github": "https://www.github.com/adharvarun/AInstein",
+    "url": "https://adharvarun.github.io/AInstein"
   },
   {
     "name": "SmartStep",
