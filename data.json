@@ -1,5 +1,11 @@
 [
   {
+    "name": "Serenity",
+    "description": "Your Wellness Companion.",
+    "github": "https://github.com/adharvarun/Serenity",
+    "url": "https://serenity-adharvarun.vercel.app/"
+  },
+  {
     "name": "AInstein",
     "description": "AI Assistant built with DeepSeek-R1 and Chainlit",
     "github": "https://www.github.com/adharvarun/AInstein",
